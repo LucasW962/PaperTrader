@@ -59,6 +59,8 @@ public class Player {
         this.portfolio.ownedStocks.clear();
     }
 
+
+
     public static class Portfolio {
         private double money;
         private final ArrayList<MarketSystem.Trade> trades = new ArrayList<>();
